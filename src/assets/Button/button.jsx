@@ -1,4 +1,4 @@
-import React from "react";
+
 import styled from "styled-components";
 
 const ButtonElement = styled.button`
@@ -10,8 +10,8 @@ const ButtonElement = styled.button`
   cursor: pointer;
 `;
 
-const Button = ({ onClick }) => {
-  return <ButtonElement onClick={onClick}>Закрыть</ButtonElement>;
+const Button = ({ onClick, className }) => {
+  return <ButtonElement className={className} onClick={onClick}>Закрыть</ButtonElement>;
 };
 
 export default Button;
