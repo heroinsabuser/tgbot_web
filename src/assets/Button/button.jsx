@@ -10,8 +10,8 @@ const ButtonElement = styled.button`
   cursor: pointer;
 `;
 
-const Button = ({ onClick, className }) => {
-  return <ButtonElement className={className} onClick={onClick}>Закрыть</ButtonElement>;
+const Button = ({ onClick, className, children }) => {
+  return <ButtonElement className={className} onClick={onClick}>{children}</ButtonElement>;
 };
 
 export default Button;
