@@ -17,11 +17,7 @@ const ImageElement = styled.div`
   background: var(--tg-theme-button-color);
 `;
 const TitleElement = styled.div`
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--tg-theme-button-color);
-  padding: 15px;
-  width: 170px;
+  color: var(--tg-theme-text-color);
 `;
 const DescriptionElement = styled.div`
   font-size: 0.8em;
